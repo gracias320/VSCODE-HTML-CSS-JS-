@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* folha de estilo baseGrid para o projeto grid4 */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+#container {
+    display: grid;
+
+    grid-template-areas: 
+    "top top top"
+    "nav nav nav"
+    "footer footer footer";
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 16vh 7vh 10vh;
+}
+
+
+
+/* itens do layout */
+.top-page {
+    grid-area: top;
+}
+
+.nav-page {
+    grid-area: nav;
+    padding: 5px;
+}
+
+.side-page {
+    grid-area: side;
+}
+
+.pagina-inicial {
+    grid-area: main;
+}
+
+.footer-page {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    grid-area: footer; 
+
+    
+}
+
+.footer-page a {
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+    grid-area: footer;
+    height: auto;
+   
+}
+
+.footer-page:last-child {
+    padding-bottom: 5px;
+    
+}
+
+#countainer2{
+    display: flex;
+    grid-template-areas: 
+
+}
+
+.b1:nth-child(1) {
+    order: 1;
+    padding: 150px;
+    display: block;
+    float: left;
+
+}
+
+.b1:nth-child(2) {
+    order: 2;
+    padding: 150px;
+    display: block;
+}
+
+.b1:nth-child(3) {
+    order: 3;
+    padding: 150px;
+    display: block;
+    position: static;
+}
+

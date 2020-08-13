@@ -1,0 +1,51 @@
+!<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>FORMULARIO1.0</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="FormularioCSS.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Fomulario1.0-2020</h1>
+        <form action="/action_page.php" class="form">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label class="Nome" for="Nome">Nome</label>
+            <input type="text" id="Nome" name="Nome" value=""><br><br>
+            <label class="Idade" for="idade">Idade</label>
+            <input type="text" name="Idade" name="Idade"><br><br>
+            <label class="Date" for="Aniversario">Data de Nascimento</label>
+            <input type="date" name="Aniversario" id="Date"><br><br>
+            <label class="Distrito" for="Distrito">Distrito</label>
+            <select name="Distrito" id="Distrito">
+            <option value="Salvador">Salvador</option>
+            <option value="Lauro de Freitas">Lauro de Freitas</option>
+            <option value="Serrinha">Serrinha</option>
+            <option value="Arembepe">Arembepe</option>
+            </select>
+            <br>
+            <br>
+            <label class="Sexo" for="Sexo">Sexo</label><br>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="gender" id="male" value="male"><br>
+            <label for="Feminino">Feminino</label>
+            <input type="radio" name="gender" id="female" value="female"><br>
+            <label class="RedesSociais" for="Redes Sociais">Redes Sociais</label><br>
+            <label for="Facebook">Facebook</label>
+            <input type="checkbox" name="Facebook" id="Facebook" value="Facebook"><br>
+            <label for="Instagram">Instagram</label>
+            <input type="checkbox" name="Instagram" id="Instagram" value="Instagram"><br>
+            <label for="Printrest">Printrest</label>
+            <input type="checkbox" name="Printrest" id="Printrest" value="Printrest"><br><br>
+            <label class="Email" for="Email">Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label class="Password" for="Password">Password</label>
+            <input type="password" name="password" id="password"><br>
+        </fieldset>
+        <br>
+            <button onclick="alertarUsuario(`Usuario cadastrado com sucesso.`)">Registrar</button>
+            <script src="form.js"></script>
+        </form>
+    </body>
+</html>

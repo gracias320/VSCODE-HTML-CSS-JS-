@@ -1,0 +1,45 @@
+.form{
+    border-style: solid;
+    width: 1000px;
+    height: 600px;
+    padding: 20px;
+    background-color: White; 
+}
+label{
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 3;
+    border: inset;
+}
+.Nome{
+    border-style: groove;
+}
+.Idade{
+    border-style: groove;
+}
+.Date{
+    border-style: groove;
+}
+.Distrito{
+    border-style: groove;
+}
+.RedesSociais{
+    border-style: groove;
+}
+.Sexo{
+    border-style: groove;
+}
+body{
+    background-color: lightgreen;
+}
+.Sexo{
+    align-content: initial;
+}
+.Email{
+    border-style: groove;
+}
+.Password{
+    border-style: groove;
+}

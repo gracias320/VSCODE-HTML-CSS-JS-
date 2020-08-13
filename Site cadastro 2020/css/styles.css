@@ -1,0 +1,16 @@
+body{
+	background-color: #804DFF;
+	color: white;
+}
+form{
+	border-style: outset;
+	border-width: 3px;
+	width: 785px;
+}
+.tabela{
+border-spacing: 30px;
+}
+.titulo1{
+text-align: center;
+font-style: italic;
+}

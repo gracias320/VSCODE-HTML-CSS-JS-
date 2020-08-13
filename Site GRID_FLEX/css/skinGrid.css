@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* folha de estilo skinGrid para o projeto grid4 */
+
+
+body {
+    font-family: DejaVu, Serif;
+    font-size: 100%;
+
+    background: #c2c2c2;
+}
+
+/* itens do layout */
+.top-page {
+    background: #C22F00;
+}
+
+.nav-page {
+    background: #A5A9E8;
+}
+
+.side-page {
+    background: white;
+}
+
+.pagina-inicial {
+    background: #A5A9E8;
+    color: white;
+}
+
+.aside-page {
+    background: white;
+}
+
+.footer-page {
+    color: #fff;
+    background: black;
+}
+
+.bolo-de-chocolate{
+    background: #5E400E;
+    color: white;
+}
+.bolo-de-cenoura{
+    background-color: #BF890A;
+    color: white;
+
+}
+.bolo-de-laranja{
+    background-color: #D1CA84;
+    color: #A8802F;
+}

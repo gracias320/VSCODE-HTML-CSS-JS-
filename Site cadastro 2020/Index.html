@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Site Cadastro2020</title>
+</head>
+<body>
+    <h1 class="titulo1">Aula 1 de HTML 2020</h1>
+    <h2>- SITE CADASTRO -</h2>
+    <p>Esta é a segunda aula de de HTML, onde iremos aprender sobre:</p>
+    <ol>
+        <li>Tags</li> 
+        <li>Propriedades das tags</li>
+        <li>Formulários</li>
+    </ol>
+    <p>Os conhecimentos requeridos para esta displina estão descritos na tabela abaixo</p>
+    <table class="tabela" border="3px"> 
+        <tr>
+            <th>Codigo</th>
+            <th>Displina</th>
+            <th>Resumo</th>
+        </tr>
+        <tr>
+            <td>LP</td>
+            <td>Lógica de Programação</td>
+            <td>Conhecimentos em Captura e exibição de dados</td>
+        </tr>
+        
+        <tr>
+        <td>FWD</td>
+        <td>Fundamentos de Web Design</td>
+        <td>Conceitos básicos de HTML</td>
+    </tr>
+    </table>
+    <br><br><br>
+    <form class="form">
+        <label>Nome Completo</label>
+        <input type="text" name="nome" required>
+        <label>Data de Nascimento</label>
+        <input type="date" name="dtNascimento">
+        <label>Gênero</label>
+        <input list="genero" name="genero" >
+        <datalist id="genero">
+                <option value="Masculino">
+                <option value="Feminino">
+                <option value="Outros">
+        </datalist>
+        <input type="submit" name="btnEnviar" value="Enviar">
+    </form>
+</body>
+</html>
